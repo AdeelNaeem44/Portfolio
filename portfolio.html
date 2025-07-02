@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Adeel Naeem - AI Engineer Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #1c1c2b, #30305c);
+      color: white;
+      overflow-x: hidden;
+      animation: fadeInBody 2s ease-in-out;
+    }
+
+    header {
+      text-align: center;
+      padding: 60px 20px;
+      background: #10101a;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+      border-bottom: 2px solid #00ffcc;
+      animation: slideDown 1s ease-out forwards;
+      position: relative;
+    }
+
+    .profile-pic {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #00ffcc;
+      box-shadow: 0 0 12px rgba(0, 255, 204, 0.6);
+      margin-bottom: 20px;
+      animation: pulse 2s infinite;
+    }
+
+    header h1 {
+      font-size: 2.8rem;
+      color: #00ffcc;
+      margin-bottom: 8px;
+      animation: textGlow 2s ease-in-out infinite alternate;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      color: #bbb;
+    }
+
+    section {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 30px;
+      background: #1e1e2f;
+      border-left: 4px solid #00ffcc;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0, 255, 204, 0.15);
+      animation: fadeInSection 1.5s ease-in;
+      transition: all 0.3s ease;
+    }
+
+    section:hover {
+      transform: scale(1.02);
+      background: #26263a;
+      box-shadow: 0 0 30px rgba(0, 255, 204, 0.5);
+    }
+
+    h2 {
+      color: #00ffcc;
+      border-bottom: 1px solid #00ffcc;
+      margin-bottom: 15px;
+      padding-bottom: 5px;
+      font-size: 1.6rem;
+    }
+
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+      color: #eee;
+    }
+
+    ul li {
+      margin-bottom: 10px;
+      line-height: 1.7;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px 0;
+      margin-top: 60px;
+      background-color: #10101a;
+      color: #777;
+      border-top: 2px solid #00ffcc;
+      animation: fadeInBody 2s ease-in;
+    }
+
+    @keyframes slideDown {
+      0% { opacity: 0; transform: translateY(-50px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeInBody {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+
+    @keyframes fadeInSection {
+      0% { opacity: 0; transform: translateY(20px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes pulse {
+      0% { box-shadow: 0 0 12px rgba(0,255,204,0.6); }
+      50% { box-shadow: 0 0 20px rgba(0,255,204,0.9); }
+      100% { box-shadow: 0 0 12px rgba(0,255,204,0.6); }
+    }
+
+    @keyframes textGlow {
+      0% { text-shadow: 0 0 5px #00ffcc; }
+      100% { text-shadow: 0 0 15px #00ffcc; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://media.licdn.com/dms/image/v2/D4D03AQHzfq9d5OcQ_g/profile-displayphoto-crop_800_800/B4DZehL8iuG8AI-/0/1750755954680?e=1756944000&v=beta&t=MY39_P1oc_ntX8cgle7oVcLWUNF_E6gaR4SrXgpTcCU" alt="Profile Picture" class="profile-pic" />
+    <h1>Adeel Naeem</h1>
+    <p>pursuing AI Engineer |Deep Leaining Specialist| Machine Learning Enthusiast</p>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>I am a Final year Artificial Intelligence undergraduate student with strong knowledge in machine learning, deep learning, NLP, and computer vision. I am passionate about applying AI in real-world applications, building intelligent systems, and continuously learning cutting-edge technologies.</p>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+    <ul>
+      <li><strong>Bachelor of Science in Artificial Intelligence</strong> – National University of Modern Languages (2022 - 2026)</li>
+      <li>Currently pursuing – Final Year</li>
+      <li>Relevant Coursework: Deep Learning, NLP, Machine Learning, Data Structures, AI Ethics</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Experience</h2>
+    <ul>
+      <li><strong>Status:</strong> Fresher</li>
+      <li>Completed multiple academic AI projects </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>Admission Prediction</strong>AI-powered system to predict student admission chances using academic and demographic data analysis.</li>
+      <li><strong>AI Chatbot:</strong> A question-answering bot using LangChain and Wikipedia, leveraging LLMs for context-aware responses.</li>
+      <li><strong>News Classifier:</strong> ML-based classifier to categorize news articles with LSTM Model and BERT embeddings.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Career Goals</h2>
+    <p>To become a leading AI Engineer who designs and deploys ethical, scalable, and impactful AI solutions. I aspire to contribute to global tech innovation, work in high-tech R&D teams, and pursue advanced AI research that benefits humanity.</p>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <ul>
+      <li><strong>Languages:</strong> Python, C++,Java(OOP),SQL Basic</li>
+      <li><strong>AI & ML Tools:</strong> TensorFlow, PyTorch(at some level), Scikit-learn, OpenCV</li>
+      <li><strong>NLP & LLMs:</strong> Hugging Face Transformers, LangChain</li>
+      <li><strong>Data:</strong> Pandas, NumPy, Matplotlib, SQL</li>
+      <li><strong>Tools:</strong>  VS Code, JupyterNoteBook, Kaggle, Google Colab</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Adeel Naeem. All rights reserved.</p>
+    <p>&copy; adeeln454@gmail.com</p>
+  </footer>
+</body>
+</html>
